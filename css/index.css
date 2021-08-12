@@ -1,0 +1,154 @@
+/*Global*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Typography*/
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    color: #FFB312;
+}
+h2 {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #006344;
+    margin: 0 auto;
+    margin-top: 96px;
+    margin-bottom: 48px;
+}
+h4 {
+    font-size: 24px;
+    color: #5C3641;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+h5 {
+    font-size: 14px;
+    color: #0C1E34;
+}
+p {
+    font-size: 16px;
+    color: #0C1E34;
+}
+
+/*Top Navigation*/
+.navbar {
+    padding: 0;
+}
+.customNav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #5C3641;
+}
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    margin-top: 64px;
+    margin-left: 12vw;
+}
+#navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    margin-top: 64px;
+    margin-right: 12vw;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: white;
+    margin-left: 26px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#navigation a:hover {
+    color: #45DCEA;
+    font-weight: 600;
+}
+.navIcon {
+    font-size: 16px;
+}
+.navIcon:hover {
+    font-size: 18px;
+}
+
+/* Jumbotron*/
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0;
+}
+.jumboBlurb {
+    margin-left: 12vw;
+}
+
+/* Overview*/
+.header {
+    margin: 0 auto;
+}
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12vw 0;
+}
+.overviewImg {
+    height: auto;
+    border-radius: 24px;
+    background-image: url(../images/overview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overviewBlock {
+    border: 1px solid #FFB312;
+    border-radius: 24px;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Process*/
+.processNav {
+    margin-top: 96px 12vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #FFB312;
+    box-shadow: 4px 4px #FFB312;
+    color: #5C3641;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover {
+    border: 1px solid #45DCEA;
+    box-shadow: 4px 4px #45DCEA;
+    color: #45DCEA;
+}
+.methods1 {
+    text-align: center;
+}
