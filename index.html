@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christa Lee | UX Designer</title>
 
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reset.css"/>
     <link 
         rel="stylesheet" 
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
         crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" 
         rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css"/>
 </head>
 
 <body>
@@ -57,6 +60,9 @@
         </div>
     </nav>
 
+    <!--Return top-->
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"><span class="iconify" data-icon="akar-icons:arrow-up"></span></a>
+    
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
         <div class="row">
@@ -85,6 +91,7 @@
             <br>
             <h4>Solution</h4>
             <p><span style="font-weight: 600">Simplifying navigation</span> and <span style="font-weight: 600">condensing pages</span> to better address the specific user groups that the USDA serves allowed users to access the information they needed much more <span style="font-weight: 600">smoothly</span> and <span style="font-weight: 600">efficiently</span>.
+                <br>
                 <br>
                 Users saw a <span style="font-weight: 600">140% increase in task completion</span> and took <span style="font-weight: 600">72 seconds less time to complete</span>.</p>
         </div>
@@ -126,55 +133,481 @@
     </div>
 
     <!--Process-->
-    <nav class="navbar navbar-expand-lg processNav">
-        <div class="row">
-            <div class="col">
+    <div class="row">
+        <h3>Design Process</h3>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="row processNav">
+            <div class="col process">
                 <button>1</button>
                 <h4></h4>
                 <h4>User Research</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>Proto-Persona</li>
+                        <li>User Path</li>
+                        <li>Heuristics Analysis</li>
+                        <li>Usability Testing</li>
+                        <li>Affinity Diagram</li>
+                        <li>Prioritization Matrix</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
+            <div class="col spacer"></div>
+            <div class="col process">
                 <button>2</button>
                 <h4></h4>
-                <h4>Define</h4>
+                <h4><br>Define</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>User Insight</li>
+                        <li>Problem Statement</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
+            <div class="col spacer"></div>
+            <div class="col process">
                 <button>3</button>
                 <h4></h4>
-                <h4>Ideate</h4>
+                <h4><br>Ideate</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>Card Sort</li>
+                        <li>Sitemap</li>
+                        <li>Moodboard</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
+            <div class="col spacer"></div>
+            <div class="col process">
                 <button>4</button>
                 <h4></h4>
-                <h4>Prototype</h4>
+                <h4><br>Prototype</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>Lo-Fi Sketches</li>
+                        <li>Mid-Fi Wireframes</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
+            <div class="col spacer"></div>
+            <div class="col process">
                 <button>5</button>
                 <h4></h4>
                 <h4>Test & Analyze</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>Usability Testing</li>
+                        <li>Key Findings</li>
+                        <li>2x2 Matrix Analysis</li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
+            <div class="col spacer"></div>
+            <div class="col process">
                 <button>6</button>
                 <h4></h4>
-                <h4>Iterate</h4>
+                <h4><br>Iterate</h4>
+                <div class="methods">
+                    <ul>
+                        <li><span style="font-weight: 600">Methods:</span></li>
+                        <li>Style Guide</li>
+                        <li>Hi-Fi Prototype</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-        <div class="row">
-            <div class="methods1">
-                <ul>
-                    <li><span style="font-weight: 600">Methods:</span></li>
-                    <li>Proto-Persona</li>
-                    <li>User Path</li>
-                    <li>Heuristics Analysis</li>
-                    <li>Usability Testing</li>
-                    <li>Affinity Diagram</li>
-                    <li>Prioritization Matrix</li>
-                </ul>
             </div>
         </div>
     </nav>
 
     <!--Research-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">User Research</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Proto-Persona</h4>
+            <p>
+                Research was based on the proto-persona of a new mother seeking WIC support from the USDA. 
+                <br>
+                <br>
+                Stephanie <span style="font-weight: 600">wants to apply for WIC benefits</span> which include food packages and education programs. Her goal is to ensure her baby's and her own health, and she is also interested in finding more information on how to manage better nutrition for both of them.
+            </p>
+        </div>
+        <div class="col-lg-8 protoImg"></div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-8 pathImg"></div>
+        <div class="col-lg-3">
+            <h4>User Path</h4>
+            <p>
+                On the existing USDA website, the shortest path a user can take from the homepage navigates through <span style="font-weight: 600">five</span> different pages to apply to WIC by phone, and <span style="font-weight: 600">seven</span> (including one external) to apply online. 
+                <br>
+                <br>
+                A separate page includes information about the WIC Farmer’s Market Nutrition Program.
+            </p>
+        </div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-12">
+            <h4 class="centerRow">Heuristics Analysis</h4>
+            <p>
+                Research was done as a team while the rest of the project was a solo endeavor. After determining the user path, we conducted a heuristics analysis and redlined the pages accordingly. Major issues we noted included <span style="font-weight: 600">no clear hierarchy of information to direct users, pertinent navigation was nested in blocks of text and hard to find, and information was too spread out across multiple user paths</span>.
+            </p>
+        </div>
+    </div>
+    <div class="row customRowShort">
+        <div class="col-lg-4 heuristicImg1"></div>
+        <div class="col-lg-4 heuristicImg2"></div>
+        <div class="col-lg-4 heuristicImg3"></div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Usability Testing</h4>
+            <p>
+                We planned and conducted virtual usability tests of the existing USDA website, <span style="font-weight: 600">five</span> different pages to apply to WIC by phone, and <span style="font-weight: 600">three for desktop and two for mobile</span>, and asked potential users to navigate from the homepage to the WIC application page. 
+                <br>
+                <br>
+                We wanted to see how <span style="font-weight: 600">intuitive</span> it felt for users to complete their task and specifically where they got <span style="font-weight: 600">stuck</span>.
+            </p>
+        </div>
+        <div class="col-lg-8">
+            <div class="row colGroup">
+                <div class="col-lg-3 centerCol">
+                    <div class="quoteImg1"></div>
+                    <h5 class="quotes centerRow">“Why isn’t WIC on the homepage?”</h5>
+                </div>
+                <div class="col-lg-3 centerCol">
+                    <div class="quoteImg2"></div>
+                    <h5 class="quotes centerRow">“I don’t know where to go, there are too many topics!”</h5>
+                </div>
+                <div class="col-lg-3 centerCol">
+                    <div class="quoteImg3"></div>
+                    <h5 class="quotes centerRow">“I think it should be here... but I don’t see it...”</h5>
+                </div>
+                <div class="col-lg-3 centerCol">
+                    <div class="quoteImg4"></div>
+                    <h5 class="quotes centerRow">“I give up, I’m just going to use the search bar.”</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-12">
+            <h4 class="centerRow">Affinity Diagram</h4>
+            <p>
+                The team compiled and organized notes from usability testing into an affinity diagram which showed that the <span style="font-weight: 600">users’ experiences overlapped with our own observations</span> from the heuristics analysis. We dot-voted on which issues we thought were the most important to focus on improving and used a prioritization matrix to drive our following iterations.
+            </p>
+        </div>
+    </div>
+    <div class="row customRowShort">
+        <div class="col-lg-4 affinityImg1"></div>
+        <div class="col-lg-7 affinityImg2"></div>
+    </div>
+
+    <!--Define-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">Define</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>User Insight</h4>
+            <p>
+                Applicants who need USDA support use the website to search specifically for eligibility and application process information, and want that <span style="font-weight: 600">information to be accessible up-front</span>.
+            </p>
+            <br>
+            <br>
+            <h4>Problem Statement</h4>
+            <p>
+                USDA users want to find relevant information quickly and easily, but the website’s <span style="font-weight: 600">confusing navigation</span> and <span style="font-weight: 600">inflated pages</span> make finding critical information <span style="font-weight: 600">slow</span> and <span style="font-weight: 600">frustrating</span>. The hierarchy of information in both the navigation and page content <span style="font-weight: 600">fails to guide the user’s path</span>.
+            </p>
+        </div>
+        <div class="col-lg-8 defineImg"></div>
+    </div>
+
+    <!--Ideate-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">Ideate</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-12">
+            <h4 class="centerRow">Card Sort</h4>
+            <div class="sortImg"></div>
+            <p>
+                At this point, the research team split up to work on our own redesigns. I went on to conduct a card sort and focused on restructuring the pages so that they could be condensed into the four main categories of USDA support: <span style="font-weight: 600">agriculture and industry, health and nutrition, natural resources, and rural development</span>. 
+            </p>
+        </div>
+    </div>
+
+    <div class="row customRowTop">
+        <div class="col-lg-7">
+            <h4>Sitemap</h4>
+            <p>
+                The card sort was turned into a sitemap to help guide the first set of wireframes.
+            </p>
+            <div class="sitemapImg"></div>
+        </div>
+        <div class="col-lg-4">
+            <h4>Moodboard</h4>
+            <p>
+                I also created a moodboard at this point to guide the look and feel of the redesign. The redesign still needed to feel <span style="font-weight: 600">approachable</span> and <span style="font-weight: 600">trustworthy</span> to the average American, so <span style="font-weight: 600">natural colors</span> and <span style="font-weight: 600">lifestyle photos</span> as opposed to graphics were emphasized.
+            </p>
+            <div class="moodboardImg"></div>
+        </div>
+    </div>
+
+    <!--Prototype-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">Prototype</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Mobile Prototype</h4>
+            <p>
+                Since user research proved that <span style="font-weight: 600">navigation</span> was the most crucial part to address with the redesign, the first prototypes were purely main menu design for both mobile and desktop viewports.
+            </p>
+        </div>
+        <div class="col-lg-8">
+            <div class="row colGroup">
+                <div class="col-lg-3">
+                    <div class="protomob1"></div>
+                    <h5 class="captions centerRow">Main menu</h5>
+                </div>
+                <div class="col-lg-3">
+                    <div class="protomob2"></div>
+                    <h5 class="captions centerRow">Health & Nutrition menu</h5>
+                </div>
+                <div class="col-lg-3">
+                    <div class="protomob3"></div>
+                    <h5 class="captions centerRow">Main homepage</h5>
+                </div>
+                <div class="col-lg-3">
+                    <div class="protomob4"></div>
+                    <h5 class="captions centerRow">WIC homepage</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Desktop Prototype</h4>
+            <p>
+                Main menus were expanded into wireframes for the rest of the page. Content on the page was simplified to direct the four main user groups: <span style="font-weight: 600">program applicants and recipients, farmers and producers, state and local agencies, and partners and retailers</span>.
+            </p>
+        </div>
+        <div class="col-lg-8">
+            <div class="row colGroup">
+                <div class="col-lg-6">
+                    <div class="protodesk1"></div>
+                    <h5 class="captions centerRow">Health & Nutrition menu</h5>
+                </div>
+                <div class="col-lg-6">
+                    <div class="protodesk2"></div>
+                    <h5 class="captions centerRow">User group cards</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Test-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">Test & Analyze</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Usability Testing</h4>
+            <p>
+                <span style="font-weight: 600">Four desktop and two mobile</span> virtual usability tests were conducted with the task of navigating to the WIC program application page from the main USDA homepage in the prototype.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <div class="row colGroup">
+                <div class="col-lg-4 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:clipboard-task-list-rtl-24-regular"></span>
+                    <p class="cardTitle">TASK COMPLETION</p>
+                    <p>Overall, users were able to complete the task quickly.</p>
+                </div>
+                <div class="col-lg-4 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:view-desktop-mobile-24-regular"></span>
+                    <p class="cardTitle">MOBILE MENU</p>
+                    <p>Text was somewhat hard to parse due to its font size and dense content.</p>
+                </div>
+                <div class="col-lg-4 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:view-desktop-24-regular"></span>
+                    <p class="cardTitle">DESKTOP MENU</p>
+                    <p>Icons made navigation categories clearer, but letting was too tight between the lines.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-8 analysisImg"></div>
+        <div class="col-lg-3">
+            <h4>2x2 Matrix Analysis</h4>
+            <p>
+                Based on the key findings, I worked on improving menu legibility by <span style="font-weight: 600">increasing</span> both <span style="font-weight: 600">font size</span> and <span style="font-weight: 600">line spacing</span>.
+                <br>
+                <br>
+                I also added in the desktop version’s <span style="font-weight: 600">icons</span> to the mobile menu to help differentiate categories further.
+            </p>
+        </div>
+    </div>
+
+    <!--Iterate-->
+    <div class="row sectionHeader">
+        <h3 class="sectionTitle">Iterate</h3>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Style Guide</h4>
+            <p>
+                In addition to making the menus more legible, I created a style guide to apply to the hi-fi prototype.
+            </p>
+        </div>
+        <div class="col-lg-4 styleImg1"></div>
+        <div class="col-lg-4 styleImg2"></div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-12">
+            <h4 class="centerRow">Hi-Fi Prototype</h4>
+            <div class="mockupImg"></div>
+        </div>
+    </div>
+
+    <div class="row customRowTall">
+        <div class="col-lg-3">
+            <h4>Usability Testing</h4>
+            <p>
+                <span style="font-weight: 600">Ten more usability tests</span> were conducted, half for desktop and half for mobile. Users continued to complete the task quickly and easily.
+                <br>
+                <br>
+                Minor occasions of confusion were:
+            </p>
+        </div>
+        <div class="col-lg-8">
+            <div class="row colGroup">
+                <div class="col-lg-3 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:cursor-hover-24-regular"></span>
+                    <p class="cardTitle">HOVER</p>
+                    <p>Some users expected the desktop main menu to appear on hover rather than click.</p>
+                </div>
+                <div class="col-lg-3 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:directions-24-regular"></span>
+                    <p class="cardTitle">USER PATH</p>
+                    <p>A couple of users wanted to find the WIC program by first looking at all USDA agencies.</p>
+                </div>
+                <div class="col-lg-3 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:content-view-32-regular"></span>
+                    <p class="cardTitle">CONTENT</p>
+                    <p>A couple of users didn’t realize there was more content below the fold.</p>
+                </div>
+                <div class="col-lg-3 centerRow">
+                    <span class="iconify cardIcon" data-icon="fluent:compass-northwest-24-regular"></span>
+                    <p class="cardTitle">NAVIGATION</p>
+                    <p>
+                        There was an interesting divide between those who <span style="font-weight: 600">completely ignored the main menu</span>, and those who <span style="font-weight: 600">ignored the page content</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Conclusions-->
+    <div class="row centerRow">
+        <h3>Lessons Learned & Takeaways</h3>
+    </div>
+
+    <div class="row customRowShort">
+        <div class="col-lg-6 conclusionImg"></div>
+        <div class="col-lg-5">
+            <p>Since this project combined aspects of both UX and UI design, it felt like a much bigger undertaking than previous projects. Graphic design doesn’t come naturally to me, so the UI portion was particularly challenging.</p>
+        </div>
+    </div>
+
+    <div class="row centerRow">
+        <h3>What's Next?</h3>
+    </div>
+
+    <div class="row customRowShort">
+        <div class="col-lg-5">
+            <p>
+                I received many comments over the course of testing about wanting a WIC program button visibly placed on the homepage to make navigation even clearer. However, since the USDA covers many more topics and programs than just WIC, it didn’t make sense to put so much weight on just one program. 
+                <br>
+                <br>
+                As a future step, I would love to <span style="font-weight: 600">show the prototype to someone at the USDA</span> and ask them what their <span style="font-weight: 600">current traffic</span> is like: Is WIC as popular as it seems to be, and does it make sense to give it its own homepage button? I’m also very curious to see if they find the redesign actually useful and if it aligns with the USDA’s goals. 
+            </p>
+        </div>
+        <div class="col-lg-6 nextImg"></div>
+    </div>
+
+    <div class="row customRowShort centerCol">
+        <h4>Thank you for reading!</h4>
+    </div>
+
+    <!--Projects-->
+    <div class="row projectsGroup">
+        <div class="col-lg-2">
+            <h4 class="projects">Check out some of my other work</h4>
+        </div>
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-4 projectsImg1"></div>
+                <div class="col-lg-4 projectsImg2"></div>
+                <div class="col-lg-4 projectsImg3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer customFoot">
+        <h5 class="bgDark">© 2021 Christa Lee</h3>
+
+        <div class="footNav">
+                <a href="#projects">projects</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+             
+                <a href="#linkedin">
+                    <span
+                        class="iconify navIcon"
+                        data-inline="false"
+                        data-icon="bx:bxl-linkedin"
+                    ></span>
+                </a>
+                <a href="#instagram">
+                    <span
+                        class="iconify navIcon"
+                        data-inline="false"
+                        data-icon="bx:bxl-instagram-alt"
+                    ></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 </html>
